@@ -1,13 +1,12 @@
 # spinnaker development
 
-## Links
+## Overview
 
-- [`Setup - Local via Docker`](https://www.spinnaker.io/setup/install/halyard/#docker)
-- [`Setup - Local git config`](https://www.spinnaker.io/setup/install/environment/#local-git)
-- [`Life of a bake`](https://www.spinnaker.io/reference/architecture/loab/)
-- [`Life of a deployment`](https://www.spinnaker.io/reference/architecture/load/)
+Scripting out most of the path to development on the moving parts for spinnaker.
 
-## Steps
+After following the [`Setup`](#setup), the necessary repositories will be available in `spinnaker-development/repos/*`
+
+## Setup
 
 - Clone this repo
 - Fork spinnaker repos for development
@@ -20,3 +19,10 @@ export github_com_user_name="Your Name"
 export github_com_user_email="your@email.com"
 ```
 - `./develop.sh`
+
+## Links
+
+- [`Setup - Local via Docker`](https://www.spinnaker.io/setup/install/halyard/#docker)
+- [`Setup - Local git config`](https://www.spinnaker.io/setup/install/environment/#local-git)
+- [`Life of a bake`](https://www.spinnaker.io/reference/architecture/loab/)
+- [`Life of a deployment`](https://www.spinnaker.io/reference/architecture/load/)
