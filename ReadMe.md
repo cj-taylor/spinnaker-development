@@ -9,4 +9,12 @@
 
 ## Steps
 
--
+- Clone repo
+- Set environment variables
+```shell
+export github_com_user=your-username
+export github_com_user_name="Your Name"
+export github_com_user_email="your@email.com"
+```
+- Create Github SSH key as `~/.ssh/github_com_rsa` for automated cloning
+- `./develop.sh`
