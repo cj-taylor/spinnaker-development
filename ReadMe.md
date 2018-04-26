@@ -9,12 +9,14 @@
 
 ## Steps
 
-- Clone repo
-- Set environment variables
+- Clone this repo
+- Fork spinnaker repos for development
+  - https://www.spinnaker.io/reference/architecture/#spinnaker-microservices
+- Create Github SSH key as `~/.ssh/github_com_rsa` for automated cloning
+- Set environment variables (used by the [`localgit installation`](https://www.spinnaker.io/setup/install/environment/#local-git))
 ```shell
 export github_com_user=your-username
 export github_com_user_name="Your Name"
 export github_com_user_email="your@email.com"
 ```
-- Create Github SSH key as `~/.ssh/github_com_rsa` for automated cloning
 - `./develop.sh`

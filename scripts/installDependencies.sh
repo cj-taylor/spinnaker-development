@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 
 apt-get update
-apt-get install -y netcat
-
-which nc
+apt-get install -y netcat # deck seems to be missing
 
 ssh-keyscan -H github.com >> /root/.ssh/known_hosts
 git config --global user.name "$GITHUB_USERNAME"
@@ -23,7 +21,6 @@ nvm use 8.9.4
 node -v
 
 # yarn
-which nc
 npm i -g yarn
 
 # do that deploy thing

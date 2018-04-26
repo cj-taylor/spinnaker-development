@@ -14,7 +14,7 @@ mkdir -p $spinnaker_dir
 
 docker run --name spinnaker-redis -d redis redis-server --appendonly yes
 
-# halyard
+# halyard 
 docker run \
     -p 9000:9000 \
     -p 8084:8084 \
@@ -43,7 +43,7 @@ docker run \
     -it \
     gcr.io/spinnaker-marketplace/halyard:stable
 
-sleep 25 # time it seems to take for the container to be available 
+sleep 25 # time it seems to take for the container to be available
 docker logs spinnaker-halyard
 
 # install deps
